@@ -1,0 +1,29 @@
+Volvo V50
+Sold: 07/2013
+Dealer: Kelly
+Discount: 10000€
+
+Peugeot 306
+Sold: 07/2013
+Dealer: Tom
+Discount: 1500€
+
+Opel Corsa
+Unsold: -
+Dealer: -
+Discount: 2100€
+
+Ford Focus
+Sold: 07/2013
+Dealer: Jenny
+Discount: 4800€
+
+Renault Megane
+Sold: 09/2013
+Dealer: Tom
+Discount: 7560€
+
+BMW 750
+Unsold: -
+Dealer: -
+Discount: 26000€
