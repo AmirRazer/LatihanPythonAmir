@@ -13,7 +13,7 @@ print(os.getcwd())
 def figure():
     data = pd.read_csv('d:\Python\LatihanPythonAmir\pola\RegresiLinear\knn\clustering.csv')
     print(data.head())
-    global X
+    
     X = data[["ApplicantIncome", 'LoanAmount']]
 
     #visualize data points
@@ -26,7 +26,7 @@ def titik_awal():
     X = data[["ApplicantIncome", 'LoanAmount']]
     K = 3
     # Select random observation as centroids
-    global Centroids
+    
     Centroids = (X.sample(n=K))
     plt.scatter(X["ApplicantIncome"],X["LoanAmount"],c='blue')
     plt.scatter(Centroids["ApplicantIncome"],Centroids["LoanAmount"],c='red')
@@ -36,7 +36,7 @@ def titik_awal():
 
     print(Centroids)
 def hasil_clusterng():
-    data = pd.read_csv('clustering.csv')
+    data = pd.read_csv('d:\Python\LatihanPythonAmir\pola\RegresiLinear\knn\clustering.csv')
     X = data[["ApplicantIncome", 'LoanAmount']]
     K = 3
 
